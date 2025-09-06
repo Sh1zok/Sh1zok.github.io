@@ -15,7 +15,7 @@
 body {
 	/*background: linear-gradient(rgba(0, 63, 95, 1), rgba(0, 95, 63, 1));*/
 	background: url("../assets/main_background.png") center center fixed no-repeat;
-	height: 5000px;
+	height: 100%;
 }
 
 
