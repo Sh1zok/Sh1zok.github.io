@@ -1,0 +1,100 @@
+@font-face {font-family: 'Sh1zofont'; src: url(../assets/Sh1zofont.ttf)}
+@font-face {font-family: 'Nunito'; src: url(../assets/Nunito.ttf)}
+#d1, #d2, #d3 {background: lightgray}
+
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+
+
+body {
+	/*background: linear-gradient(rgba(0, 63, 95, 1), rgba(0, 95, 63, 1));*/
+	background: url("../assets/main_background.png") center center fixed no-repeat;
+	height: 5000px;
+}
+
+
+
+/* Шапка сайта */
+#header {
+	z-index: 100;
+	width: 100%;
+	height: max(75px, 10vh);
+	position: fixed;
+	background: linear-gradient(135deg, rgba(0, 255, 255, 0.2), rgba(0, 255, 255, 0.1));
+	backdrop-filter: blur(7px);
+	border-bottom: 1px solid rgba(0, 128, 128, 0.75);
+	user-select: none;
+}
+#site_logo {
+	height: max(37.5px, 5vh);
+	margin: max(18.75px, 2.5vh);
+	margin-right: 0px;
+	float: left;
+	cursor: pointer;
+	border-radius: 0.25vh;
+	box-shadow:0 0 20px rgba(0, 255, 255, 0.5);
+}
+#site_logo:active {}
+#header_nav {
+	float: right;
+	width: min(80vw, 1100px);
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-size: max(18.25px, 2.5vh);
+	font-family: Sh1zofont;
+	margin-top: max(20.5px, 2.74vh);
+}
+.header_button {
+	text-decoration: none;
+	color: rgb(0, 191, 191);
+}
+.header_button:hover {
+	color: rgb(0, 255, 255);
+	text-shadow: 0px 0px 10px rgba(0, 255, 255, 0.5);
+}
+
+
+
+/* Блок основной информации */
+#main_info_block {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	font-family: Nunito;
+	height: 100vh;
+	align-items: center;
+}
+#info_card {
+	background: linear-gradient(135deg, rgba(191, 255, 255, 0.9), rgba(63, 255, 255, 0.9));
+	padding: max(2vw);
+	border-radius: 3vw;
+	font-size: max(15px, 2.5vh);
+	box-shadow: 2vw 2vh 7px 0px rgba(0, 0, 0, 0.5);
+}
+#nickname {
+	font-size: max(32px, 5vh);
+	cursor: pointer;
+	user-select: none;
+	font-family: Sh1zofont;
+	position: relative;
+	bottom: 0.75vw;
+}
+#Sh1:hover, #zok:hover {
+	color: rgb(0, 191, 191);
+	text-shadow: 0px 0px 10px rgba(0, 255, 255, 0.5);
+}
+#Sh1:active, #zok:active {color: rgb(0, 255, 255);}
+#sh1zok_logo {
+	height: max(100px, 50vh);
+	background: linear-gradient(135deg, rgba(191, 255, 255, 0.9), rgba(63, 255, 255, 0.9));
+	padding: max(0.5vw);
+	border-radius: 3vw;
+	box-shadow: 2.5vw 2vh 10px 0px rgba(0, 0, 0, 0.5);
+}
