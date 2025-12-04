@@ -22,8 +22,6 @@ body {background: linear-gradient(135deg, rgba(0, 128, 128, 1), rgb(0, 17, 17)) 
 
 
 #MainInfoBlock {
-	margin-top: 5vh;
-	margin-bottom: 5vh;
 	margin-right: max(15px, 15vw);
 	margin-left: max(15px, 15vw);
 }
