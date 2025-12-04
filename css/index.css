@@ -10,12 +10,12 @@
 	box-sizing: border-box;
 }
 body {background: linear-gradient(135deg, rgba(0, 128, 128, 1), rgb(0, 17, 17)) fixed no-repeat}
-.ContentDivider {height: max(5px, 5vh)}
+.ContentDivider {height: max(5px, 10vh)}
 .SocialLogo {
-	width: max(15px, 2.5vw);
+	width: max(15px, 6vh);
 	height: auto;
 	display: inline;
-	margin-right: 2.5vw;
+	margin-right: 5vh;
 }
 
 
@@ -44,8 +44,6 @@ body {background: linear-gradient(135deg, rgba(0, 128, 128, 1), rgb(0, 17, 17)) 
 	text-shadow: 0 0 15px;
 }
 #SocialsBlock {
-	margin-top: 5vh;
-	margin-bottom: 5vh;
 	margin-right: max(15px, 15vw);
 	margin-left: max(15px, 15vw);
 }
