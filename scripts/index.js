@@ -13,5 +13,6 @@ const WelcomeSplashes = [
     "Cheers! My name is <a id='Sh1zok'>Sh1zok</a>!",
     "What's up? I'm <a id='Sh1zok'>Sh1zok</a>!",
     "I'm <a id='Sh1zok'>Sh1zok</a>. That's my website.",
-    "<a id='Sh1zok'>Sh1zok</a> was here."
+    "<a id='Sh1zok'>Sh1zok</a> was here.",
+    "I'm <a id='Sh1zok'>Sh1zok</a> UwU"
 ]

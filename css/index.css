@@ -9,7 +9,7 @@
 	padding: 0px;
 	box-sizing: border-box;
 }
-body {background: linear-gradient(135deg, rgba(0, 128, 128, 1), rgb(0, 17, 17)) fixed no-repeat}
+body {background: linear-gradient(135deg, rgba(0, 128, 128, 1), rgb(0, 17, 17)) fixed}
 .ContentDivider {height: max(5px, 10vh)}
 .SocialLogo {
 	width: max(15px, 6vh);
@@ -36,6 +36,9 @@ body {background: linear-gradient(135deg, rgba(0, 128, 128, 1), rgb(0, 17, 17)) 
 	font-family: Sh1px;
 	color: whitesmoke;
 	text-align: center;
+	animation: slidein 1s ease-out;
+	overflow: hidden;
+	white-space: nowrap;
 }
 #Sh1zok {
 	color: aqua;
@@ -44,4 +47,11 @@ body {background: linear-gradient(135deg, rgba(0, 128, 128, 1), rgb(0, 17, 17)) 
 #SocialsBlock {
 	margin-right: max(15px, 15vw);
 	margin-left: max(15px, 15vw);
+}
+
+
+
+@keyframes slidein {
+	from {margin-left: 300%}
+	to {margin-left: 0%}
 }
