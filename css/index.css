@@ -11,25 +11,9 @@
 }
 body {background: linear-gradient(135deg, rgba(0, 128, 128, 1), rgb(0, 17, 17)) fixed}
 .ContentDivider {height: max(5px, 10vh)}
-.SocialLogo {
-	width: max(15px, 6vh);
-	height: auto;
-	display: inline;
-	margin-right: 5vh;
-}
 
 
 
-
-#MainInfoBlock {
-	margin-right: max(15px, 15vw);
-	margin-left: max(15px, 15vw);
-}
-#AboutMe {
-	font-family: FeatureMonoB;
-	font-size: max(15px, 2.5vh);
-	color: #00DDDD;
-}
 #WelcomeSplash {
 	font-size: max(32px, 5vh);
 	user-select: none;
@@ -41,7 +25,49 @@ body {background: linear-gradient(135deg, rgba(0, 128, 128, 1), rgb(0, 17, 17)) 
 	color: aqua;
 	text-shadow: 0 0 15px;
 }
+
+#MainInfoBlock {
+	margin-right: 15vw;
+	margin-left: 15vw;
+}
+#AboutMe {
+	font-family: FeatureMonoB;
+	font-size: max(15px, 2.5vh);
+	color: #00DDDD;
+}
+
 #SocialsBlock {
-	margin-right: max(15px, 15vw);
-	margin-left: max(15px, 15vw);
+	margin-right: 15vw;
+	margin-left: 15vw;
+}
+.SocialLogo {
+	width: max(50px, 4.5vw);
+	height: auto;
+	display: inline;
+	margin-right: 5vh;
+}
+
+
+
+@media (max-width: 950px) {
+	#MainInfoBlock {
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+
+	#SocialsBlock {
+		margin-right: max(15px, 7.5vw);
+		margin-left: max(15px, 7.5vw);
+		display: grid;
+		grid-auto-flow: column;
+	}
+	.SocialElement {
+		text-align: center;
+	}
+	.SocialLogo {
+		width: max(50px, 6vh);
+		height: auto;
+		display: auto;
+		margin-right: 0px;
+	}
 }
