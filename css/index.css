@@ -1,6 +1,5 @@
 @font-face {font-family: 'Sh1px'; src: url(../assets/Sh1px.ttf)}
-/*@font-face {font-family: 'FeatureMonoR'; src: url(../assets/FeatureMono-Regular.ttf)}*/
-@font-face {font-family: 'FeatureMonoB'; src: url(../assets/FeatureMono-Bold.ttf)}
+@font-face {font-family: 'FeatureMono'; src: url(../assets/FeatureMono.ttf)}
 
 
 
@@ -31,7 +30,7 @@ body {background: linear-gradient(135deg, rgba(0, 128, 128, 1), rgb(0, 17, 17)) 
 	margin-left: 15vw;
 }
 #AboutMe {
-	font-family: FeatureMonoB;
+	font-family: FeatureMono;
 	font-size: max(15px, 2.5vh);
 	color: #00DDDD;
 }
