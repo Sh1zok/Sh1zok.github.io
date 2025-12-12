@@ -23,7 +23,7 @@ body {background: linear-gradient(135deg, rgb(128, 0, 0), rgb(0, 17, 17)) fixed}
 #WTFCat {
     display: block;
     margin: auto;
-    width: 20%;
+    height: 20%;
 }
 #WTFSplash {
     color: whitesmoke;
