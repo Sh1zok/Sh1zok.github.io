@@ -34,13 +34,22 @@ body {background: linear-gradient(135deg, rgba(0, 128, 128, 1), rgb(0, 17, 17)) 
 	font-size: max(15px, 2.5vh);
 	color: #00DDDD;
 }
+a {
+	color: #AAFFFF;
+	text-decoration: none;
+}
+a:visited {color: #00DDDD}
+a:hover {
+	color: white;
+	text-shadow: 0 0 15px;
+}
 
 #SocialsBlock {
 	margin-right: 15vw;
 	margin-left: 15vw;
 }
 .SocialLogo {
-	width: max(50px, 4.5vw);
+	width: max(50px, 3.5vw);
 	height: auto;
 	display: inline;
 	margin-right: 5vh;
