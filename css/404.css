@@ -1,5 +1,5 @@
 @font-face {font-family: 'Sh1px'; src: url(../assets/Sh1px.ttf)}
-@font-face {font-family: 'FeatureMonoB'; src: url(../assets/FeatureMono-Bold.ttf)}
+@font-face {font-family: 'FeatureMono'; src: url(../assets/FeatureMono.ttf)}
 
 
 
@@ -23,7 +23,7 @@ body {background: linear-gradient(135deg, rgb(128, 0, 0), rgb(0, 17, 17)) fixed}
 #WTFCat {
     display: block;
     margin: auto;
-    height: 20%;
+    width: 20%;
 }
 #WTFSplash {
     color: whitesmoke;
@@ -31,4 +31,14 @@ body {background: linear-gradient(135deg, rgb(128, 0, 0), rgb(0, 17, 17)) fixed}
     font-family: FeatureMonoB;
     text-align: center;
     font-size: max(16px, 2.5vh);
+}
+
+
+
+@media (max-width: 1100px) {
+    #WTFCat {
+        margin: auto;
+        height: 60%;
+        width: auto;
+    }
 }
